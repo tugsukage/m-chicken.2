@@ -1,0 +1,29 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: "hsl(0 0% 100%)",
+        foreground: "hsl(0 0% 3.6%)",
+        card: "hsl(0 0% 100%)",
+        "card-foreground": "hsl(0 0% 3.6%)",
+        primary: "hsl(0 84.2% 60.2%)",
+        "primary-foreground": "hsl(0 0% 100%)",
+        secondary: "hsl(0 0% 96.1%)",
+        "secondary-foreground": "hsl(0 0% 9%)",
+        muted: "hsl(0 0% 96.1%)",
+        "muted-foreground": "hsl(0 0% 45.1%)",
+        accent: "hsl(0 84.2% 60.2%)",
+        "accent-foreground": "hsl(0 0% 100%)",
+        border: "hsl(0 0% 89.8%)",
+        input: "hsl(0 0% 89.8%)",
+        ring: "hsl(0 84.2% 60.2%)",
+      },
+    },
+  },
+  plugins: [],
+}

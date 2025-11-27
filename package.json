@@ -1,13 +1,12 @@
 {
   "name": "m-chicken",
-  "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/tugsukage/m-chicken.2.git",
+  "homepage": "https://tugsukage.github.io/m-chicken.2",
   
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
